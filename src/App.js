@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import BackgroundWrap from "./components/Background";
 import ColonneGauche from "./components/colonneGauche";
-import imgColonne from './imgColonne.jpg';
+
 
 
 class App extends Component{
