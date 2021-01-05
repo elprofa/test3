@@ -1,26 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{Component} from 'react';
+import {Row, Col} from 'react-bootstrap'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          ceci est la branche arriere plan
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import Title from './components/colonneGauche/Title';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import BackgroundWrap from "./components/Background";
+
+class App extends Component{
+  render() {
+    return (
+      <BackgroundWrap fluid>
+        <Row>
+          <Col>1 of 1</Col>
+          <Col>1 of 1</Col>
+        </Row>
+      </BackgroundWrap>
+    )
+  }
 }
 
 export default App;
