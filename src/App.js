@@ -3,10 +3,9 @@ import {Row, Col} from 'react-bootstrap'
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import WelcomeBack from './components/Formulaire/form.js';
 
 import BackgroundWrap from "./components/Background";
-import ColonneGauche from "./components/colonneGauche";
-import imgColonne from './imgColonne.jpg';
 
 
 class App extends Component{
@@ -14,12 +13,8 @@ class App extends Component{
     return (
       <BackgroundWrap fluid>
         <Row>
-          <Col>
-           <ColonneGauche>
-             
-           </ColonneGauche>
-          </Col>
           <Col>1 of 1</Col>
+          <Col><WelcomeBack /></Col>
         </Row>
       </BackgroundWrap>
     )
