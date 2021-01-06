@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import {Row, Col} from 'react-bootstrap'
+import Container from 'react-bootstrap/Container'
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,18 +13,24 @@ import ColonneGauche from "./components/colonneGauche";
 class App extends Component{
   render() {
     return (
-      <BackgroundWrap fluid>
-        <div  className="OmbreDuFormulaire">
-          <Row>
+      
+      <Container >
+      <div  className="OmbreDuFormulaire">
+      <BackgroundWrap>
+      <Row>
+          <Col>
+             <ColonneGauche />
+          </Col>
+        
             <Col>
-            <ColonneGauche>
-              
-            </ColonneGauche>
+                <WelcomeBack />
             </Col>
-            <Col>1 of 1</Col>
-          </Row>
+        </Row>
+        </BackgroundWrap>
         </div>
-      </BackgroundWrap>
+      </Container >
+  
+      
     )
   }
 }

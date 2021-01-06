@@ -25,4 +25,4 @@ function ImgColonne() {
     )
 }
 
-  export default Title
+  export default ImgColonne
