@@ -28,12 +28,12 @@ const WelcomeBack = () => {
   </Button>
       <br/>
       <div className="icon-font">
-        <span className="icons-font"><AiFillFacebook size={40} /></span>
-        <span className="icons-font"><AiOutlineTwitter size={40} className="icons-font"/></span>
-        <span className="icons-font"><FaInstagram size={40} /></span>
-        <span className="icons-font"><FaDribbble size={40} className="icons-font"/></span>
-        <span className="icons-font"><FaPinterestP size={40} className="icons-font"/></span>
-        <span className="icons-font"><AiOutlineBehance size={40} className="icons-font"/></span>
+        <span className="icons-font"><AiFillFacebook size={20} /></span>
+        <span className="icons-font"><AiOutlineTwitter size={20} className="icons-font"/></span>
+        <span className="icons-font"><FaInstagram size={20} /></span>
+        <span className="icons-font"><FaDribbble size={20} className="icons-font"/></span>
+        <span className="icons-font"><FaPinterestP size={20} className="icons-font"/></span>
+        <span className="icons-font"><AiOutlineBehance size={20} className="icons-font"/></span>
       </div>
 </Form>
     );

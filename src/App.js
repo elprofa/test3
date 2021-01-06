@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import {Row, Col} from 'react-bootstrap'
+import {Row, Col,Card} from 'react-bootstrap'
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,20 +9,21 @@ import BackgroundWrap from "./components/Background";
 import ColonneGauche from "./components/colonneGauche";
 
 
+
+
+
 class App extends Component{
   render() {
     return (
       <BackgroundWrap fluid>
-        <div  className="OmbreDuFormulaire">
-          <Row>
-            <Col>
-            <ColonneGauche>
-              
-            </ColonneGauche>
-            </Col>
-            <Col>1 of 1</Col>
-          </Row>
-        </div>
+        <Card>
+            <Row>
+              <Col className="bg-light">
+                <ColonneGauche />
+              </Col>
+              <Col><WelcomeBack /> </Col>
+            </Row>
+        </Card>
       </BackgroundWrap>
     )
   }
