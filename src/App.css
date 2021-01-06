@@ -41,7 +41,7 @@
 .inscription {
   background-color: #4c56c0;
   color: white;
-  width: 50%;
+  width: 100%;
 }
 
 .name {
@@ -66,10 +66,12 @@ Button.btn- {
 }
 
 span.icon-font {
-  width: 100%;
+  width: 60px;
+  margin-right: 95px;
   display: flex;
   justify-content: flex-end;
 }
+
 .icons-font {
   margin: 3px;
   width: 40px;

@@ -20,9 +20,8 @@ function ImgColonne() {
                     <p className="">Lorem ipsum, dolor sit amet consectetur, adipisicing elit</p>
                 </Col>
             </Row>
-            
         </ColonneGauche>
     )
 }
 
-  export default Title
+  export default ImgColonne
