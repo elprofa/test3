@@ -1,3 +1,4 @@
+
 import { ColonneGauche } from "./colonneGauche.stc";
 import ImgColonne1 from './undraw_winter_designer_a2m7.svg';
 import {Row,Col} from 'react-bootstrap';
@@ -24,4 +25,4 @@ function ImgColonne() {
     )
 }
 
-export default ImgColonne;
+  export default Title
