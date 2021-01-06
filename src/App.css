@@ -37,6 +37,11 @@
   }
 }
 
+.title {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .inscription {
   background-color: #4c56c0;
@@ -61,25 +66,4 @@
   color: #0e1a81;
 }
 
-Button.btn- {
-  border-radius: 55px;
-}
-
-span.icon-font {
-  width: 60px;
-  margin-right: 95px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.icons-font {
-  margin: 3px;
-  width: 40px;
-  height: 40px;
-  color: rgb(254, 254, 255);
-  display: inline-flex;
-  align-items: baseline;
-  justify-content: flex-end;
-  overflow: hidden;
-  cursor: pointer;
 }
